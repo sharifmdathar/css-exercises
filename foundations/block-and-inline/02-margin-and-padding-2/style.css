@@ -10,12 +10,8 @@ body {
   padding: 8px;
 }
 
-.card > * {
+.card > *:not(:last-child) {
   margin-bottom: 8px;
-}
-
-.card > *:last-child {
-  margin-bottom: 0;
 }
 
 .title {
